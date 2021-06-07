@@ -1,0 +1,13 @@
+#signature {
+    --path_lenght: 718;
+    stroke-dasharray: var(--path_lenght);
+    stroke-dashoffset: var(--path_lenght);
+    animation: sign 4s ease;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes sign{
+    to {
+        stroke-dashoffset: 0;
+    }
+  }
