@@ -1,18 +1,18 @@
 import React from 'react';
 
-import './index.css';
+import styles from './index.module.css';
 
 function CardKevinPowerll1(){
     return(
-        <div className="kevin-card">
-            hehe this is something
+        <div className={styles.card}>
+            <div className={styles.card_content}>
+                <h2 className={styles.card_title}>Something awesome</h2>
+                <p className={styles.body}>Lorem ipsum dolor sir amet consectir adpisicing elit. Fugiat rem facilia.</p>
+                <a href="#" className={styles.button}>Learn more</a>
+            </div>
         </div>
     );
 }
-/*<div><p class="kevin-k">hehe</p></div>
-<h2 className="kevin-powell-1-card-title">Some title</h2>
-<p className="kevin-powell-1-card-body">Lopem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rem facilis.</p>
-<a href="/">Learn More</a>*/
 
 export default CardKevinPowerll1;
 
